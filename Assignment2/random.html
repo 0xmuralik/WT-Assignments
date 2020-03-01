@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Random Number</title>
+<SCRIPT type="text/javascript" src="randomGen.js"></SCRIPT>
+<link rel="stylesheet" type="text/css" href="grid.css">
+</head>
+<body>
+	<div align="center">
+		<form name="theForm">
+				<select id="size">
+					<option value="1">1x1</option>
+					<option value="2">2x2</option>
+					<option value="3">3x3</option>
+					<option value="4">4x4</option>
+					<option value="5">5x5</option>
+				</select>
+			    <input type="text" id="From" name="From" placeholder="From">
+				<input type="text" id="To" name="To" placeholder="To">
+				<input type="button" name="Generate" value="Generate"  onclick="generate()">
+				<div id="dvTable"></div>
+		</form>
+	</div>
+
+</body>
+</html>
